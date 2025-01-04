@@ -8,7 +8,13 @@
             </nuxt-link>
         </div>
         
-        <HomeIcon />
+        <SidebarLeftTab>
+            <template v-slot:icon>
+                <HomeIcon />
+            </template>
+
+            <template v-slot:name>Home</template>
+        </SidebarLeftTab>
     </div>
 </template>
 
