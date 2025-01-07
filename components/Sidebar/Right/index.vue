@@ -48,13 +48,13 @@
 
     const whoToFollowItems = ref([
         {
-            name: 'Joe Biden',
-            handle: '@JoeBiden',
+            name: 'Bill Gates',
+            handle: '@BillGates',
             image: 'https://picsum.photos/200/200'
         },
         {
-            name: 'Joe Biden',
-            handle: '@JoeBiden',
+            name: 'Elon Musk',
+            handle: '@ElonMusk',
             image: 'https://picsum.photos/200/200'
         },
         {
